@@ -84,14 +84,17 @@ def get_readable_time(seconds: int) -> str:
 PM_START_TEXT = """
 *Hello {} !*
 ────────────────────────
-🔥 I'm an wibu theme bot designed to help manage and playing music your telegram group with a lot features.
+🔥 Saya adalah bot manajemen tema anime
+× *Waktu beroperasi:* `{}`
+× `{}` *pengguna, di seluruh* `{}` *obrolan.*
 ────────────────────────
-🔥 Hit /help to see my available commands.
+🔥 .
 """
 
 buttons = [
     [
         InlineKeyboardButton(text="About", callback_data="emiko_"),
+        InlineKeyboardButton(text="Try inline!​​", switch_inline_query_current_chat=""
     ],
     [
         InlineKeyboardButton(text="Get Help", callback_data="help_back"),
