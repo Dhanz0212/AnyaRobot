@@ -83,12 +83,12 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 *Hello {} !*
-────────────────────────
 🔥 Saya adalah bot manajemen tema anime
+────────────────────────
 × *Waktu beroperasi:* `{}`
 × `{}` *pengguna, di seluruh* `{}` *obrolan.*
 ────────────────────────
-🔥 .
+🔥 Tekan /help untuk melihat perintah saya yang tersedia.
 """
 
 buttons = [
