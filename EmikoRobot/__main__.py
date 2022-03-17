@@ -83,10 +83,10 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 *Hello {} !*
-🔥 Saya adalah bot manajemen tema anime
+🔥 Saya adalah bot manajemen tema anime[✨](https://telegra.ph/file/0c256f41aa5e3ce26f820.jpg)
 ────────────────────────
-× *Waktu beroperasi:* `{}`
-× `{}` *pengguna, di seluruh* `{}` *obrolan.*
+♨️ *Waktu beroperasi:* `{}`
+♨️ `{}` *pengguna, di seluruh* `{}` *obrolan.*
 ────────────────────────
 🔥 Tekan /help untuk melihat perintah saya yang tersedia.
 """
@@ -94,7 +94,6 @@ PM_START_TEXT = """
 buttons = [
     [
         InlineKeyboardButton(text="About", callback_data="emiko_"),
-        InlineKeyboardButton(text="Try inline!​​", switch_inline_query_current_chat=""),
     ],
     [
         InlineKeyboardButton(text="Get Help", callback_data="help_back"),
