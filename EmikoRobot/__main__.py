@@ -94,7 +94,7 @@ PM_START_TEXT = """
 buttons = [
     [
         InlineKeyboardButton(text="About", callback_data="emiko_"),
-        InlineKeyboardButton(text="Try inline!​​", switch_inline_query_current_chat=""
+        InlineKeyboardButton(text="Try inline!​​", switch_inline_query_current_chat=""),
     ],
     [
         InlineKeyboardButton(text="Get Help", callback_data="help_back"),
