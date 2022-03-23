@@ -330,9 +330,7 @@ def info(update: Update, context: CallbackContext):
         text += "\n\nThe Disaster level of this person is 'Soldier'."
         disaster_level_present = True
     elif user.id == 5169252959:
-        text += (
-            "\n\nOwner Of A Bot. Queen Of @Ngapain_Ngetag. Bot Name Inspired From 'Rzydx'."
-        )
+        text += "\n\nOwner Of A Bot. Queen Of @Ngapain_Ngetag. Bot Name Inspired From 'Rzydx'."
         disaster_level_present = True
 
     try:
