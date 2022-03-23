@@ -80,33 +80,6 @@ def get_readable_time(seconds: int) -> str:
 
     return ping_time
 
-
-PM_START_TEXT = """
-*Hello {} !*
-🔥 Saya adalah bot manajemen tema anime[✨](https://telegra.ph/file/0c256f41aa5e3ce26f820.jpg)
-────────────────────────
-♨️ *Waktu beroperasi:* `{}`
-♨️ `{}` *pengguna, di seluruh* `{}` *obrolan.*
-────────────────────────
-🔥 Tekan /help untuk melihat perintah saya yang tersedia.
-"""
-
-buttons = [
-    [
-        InlineKeyboardButton(text="About", callback_data="emiko_"),
-    ],
-    [
-        InlineKeyboardButton(text="Get Help", callback_data="help_back"),
-        InlineKeyboardButton(text="My Crush!​​", url=f"t.me/Ngapain_Ngetag"),
-    ],
-    [
-        InlineKeyboardButton(
-            text="➗ Add Anya To Your Group ➗", url=f"t.me/{bu}?startgroup=new"
-        ),
-    ],
-]
-
-
 HELP_STRINGS = """
 Click on the button bellow to get description about specifics command."""
 
